@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --Yellow: hsl(47, 88%, 63%);
+}
+
+* {
+    font-family: "Figtree", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    background-color: var(--White);
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    max-height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #000;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0)
+}
+
+.card-img{
+    width: 290px;
+    border-radius: 15px;
+    margin: 22px 15px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    object-position: center;
+    object-fit: cover; 
+    
+}
+
+.btn {
+    width: 80px;
+    height: 25px;
+    margin-top: 0px;
+    margin-left: 25px;
+    background-color: var(--Yellow);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.tex1 {
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+.titu {
+    margin-top: 0;
+    margin-left: 25px;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.tex2{
+    margin-top: 0;
+    margin-left: 25px;
+    font-size: 14px;
+    color: var(--Grey);
+}
+
+.profile {
+    display: flex;
+    max-width: 300px;
+    margin-left: 25px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile img {
+    max-width: 50px;
+    height: 35px;
+}
+
+.profile p {
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 14px;
+    
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
